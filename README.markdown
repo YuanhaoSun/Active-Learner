@@ -1,17 +1,9 @@
-Chrome Extension: Privacy policy toolkit
+Active Learner
 ================================
 
-**Privacy Policy Detector:**
+**Active Learner** helps to solve the problem of limited labeled training data for text classification tasks by prividing semi-supervised and active learning methods.
 
-**Grader:**
-
-**Section Detector:**
-
-**Interactive learner:**
-
-**Visualisor:**
-
-
+It is a [Twitter Bootstrap][11] wrapped derivative application from [DUALIST][12] (Utility for Active Learning with Instances and Semantic Terms).
 
 Semi-supervised, active and deep learning
 ================================
@@ -44,7 +36,6 @@ Quite limited labeled data and much more unlabeled data.
  - [General site][9].
  - Stanford Unsupervised Feature Learning and Deep Learning [tutorial][10].
 
-
   [1]: http://svmlight.joachims.org/
   [2]: http://vikas.sindhwani.org/svmlin.html
   [3]: http://www.mblondel.org/journal/2010/06/21/semi-supervised-naive-bayes-in-python/
@@ -55,12 +46,8 @@ Quite limited labeled data and much more unlabeled data.
   [8]: http://www.youtube.com/watch?v=ZmNOAtZIgIk
   [9]: http://deeplearning.net/
   [10]: http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial
-
-
-Latent Dirichlet Allocation
-================================
-*First implemented is an unsupervised topic discover in text content using [Latent Dirichlet Allocation algorithm](http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation).*
-
+  [11]: http://twitter.github.com/bootstrap/
+  [12]: http://code.google.com/p/dualist/
 
 Warning: Below are just sample text for further usage.
 ================================
