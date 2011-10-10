@@ -1,0 +1,22 @@
+%% |featureSet|=18539
+%% |dataSet|=1993
+%% 0=a
+%% 1=b
+%% 2=c
+
+0	PASSIVE
+%% |featureSet|=18539
+%% |dataSet|=1993
+%% 0=a
+%% 1=b
+%% 2=c
+
+0	PASSIVE
+
+53	PASSIVE
+%% |featureSet|=18539
+%% |dataSet|=1993
+%% 0=a
+%% 1=b
+
+0	PASSIVE

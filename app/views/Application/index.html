@@ -1,0 +1,39 @@
+#{extends 'main.html' /}
+#{set title:'Active Learner' /}
+
+#{if flash.error}
+<p style="color:#c00">
+    ${flash.error}
+</p>
+#{/if}
+
+
+<div class="container">
+    <!-- Main hero-unit for a short phrase -->
+    <div class="hero-unit">
+        <h1>Active Learner</h1>
+        <p>The active learner helps to solve the problem of limited labeled training data for text classification tasks by prividing semi-supervised and active learning methods.</p>
+        <h2> Choose one of the two modes, and have fun! </h2>
+        <!-- Hide the button <p><a class="btn primary large">Learn more &raquo;</a></p> -->
+    </div>
+
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="span7">
+          <h2>Exploration Mode</h2>
+          <p>Start with unlabeled data: create labels and start annotating.</p>
+          <p><a class="btn" href="@{Application.explore()}">Explore &raquo;</a></p>
+        </div>
+        <div class="span6">
+          <h2>Experiment Mode</h2>
+           <p>Start with labeled data: run a controlled, timed user study. </p>
+          <p><a class="btn" href="@{Application.experiment()}">Experiment &raquo;</a></p>
+        </div>
+    </div>
+
+    <footer>
+        Active Learner is a <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> wrapper for <a href="http://code.google.com/p/dualist/">DUALIST</a>: Utility for Active Learning with Instances and Semantic Terms<br/>
+        &copy; 2011 <a href="https://github.com/YuanhaoSun">Yuanhao Sun</a> 
+    </footer>
+
+</div> <!-- /container -->
